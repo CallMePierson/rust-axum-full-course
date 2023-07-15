@@ -1,3 +1,11 @@
 following this tutorial: https://www.youtube.com/watch?v=XZtlD_m59sM
 
+To run as I did open two terminals
+
+in one : 
+cargo watch -q -c -w src/ -x run
+
+in the other:
+cargo watch -q -c -w examples/ -w src -x 'run --example quick_test'
+
 As part of the tutorial I ran into a windows specific bug, that's why the quick test is in the example folder
